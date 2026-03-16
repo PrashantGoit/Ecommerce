@@ -12,7 +12,7 @@ export const registerUser = createAsyncThunk(
 
   async (formData) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      "https://ecommerce-60i5.onrender.com/api/auth/register",
       formData,
       {
         withCredentials: true,
