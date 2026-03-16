@@ -10,7 +10,7 @@ export const getFeatureImages = createAsyncThunk(
   "/order/getFeatureImages",
   async () => {
     const response = await axios.get(
-      `http://localhost:5000/api/common/feature/get`
+      `http://https://ecommerce-60i5.onrender.com/api/common/feature/get`
     );
 
     return response.data;
